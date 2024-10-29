@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Penilaian Sesi 1</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.hdqwalls.com/download/art-sky-landscape-4k-lo-1920x1080.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            padding: 50px 20px;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .text-block {
+            opacity: 0;
+            transform: translateX(-100%);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+            margin-bottom: 50px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Add different delay for each block */
+        .text-block.visible:nth-child(1) {
+            transition-delay: 0.2s;
+        }
+        .text-block.visible:nth-child(2) {
+            transition-delay: 0.4s;
+        }
+        .text-block.visible:nth-child(3) {
+            transition-delay: 0.6s;
+        }
+        .text-block.visible:nth-child(4) {
+            transition-delay: 0.8s;
+        }
+        .text-block.visible:nth-child(5) {
+            transition-delay: 1s;
+        }
+
+        .text-block.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        h1, h2 {
+            margin: 0 0 10px;
+            padding: 0;
+        }
+
+        p {
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* Scroll to Top button */
+        #scrollToTopBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+            z-index: 100;
+        }
+
+        #scrollToTopBtn:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Content blocks -->
+    <div class="content">
+        <div class="text-block" id="block1">
+            <h1>Judgement</h1>
+            <p>Karena judgement ini hanya memerhatikan aspek keefektivitasan dari Strategy: Offensive & Defensive dengan kategori Counter Strategy yang akan masuk ke dalam upaya Defensive, akan membuat aspek selain dari yang telah disebutkan menjadi tidak dihitung meskipun tetap dipertimbangkan. Lebih lanjutnya, sistem poin tidak akan digunakan karena kemenangan peserta akan didapatkan melalui evaluasi, analisis, dan perbandingan —siapa saja yang kalah dan siapa yang menang— Strategy: Offensive & Defensive.</p>
+        </div>
+
+        <div class="text-block" id="block2">
+            <h2>Equals</h2>
+            <p>- AP = 5-B <br>
+               - Dura = 5-B <br>
+               - Speed = Avarage Human</p>
+        </div>
+
+        <div class="text-block" id="block3">
+            <h2>Strategies from Each Participants</h2>
+            <p><h3>Wann as Satori Komeiji </h3><br><b>Offensive</b><br>1. Mind Manipulation <br>
+              2. Danmaku <br>
+              3. Spirit Manipulasi (Soul Manipulation & Absorption) <br>
+              4. Power Mimicry<br><br><b>Defensive</b><br>1. Enhanced Senses, Mid Godly Regeneration, Aura, Unconventional Resistance. <br>
+              2. Acausality type 1 & 4 <br><h3>JackUE as Sakanashi</h3><br><b>Offensive</b><br>1. Interdimension Range <br>
+              2. Kagare Physiology <br>
+              - Passive Corrosion Inductment. <br>
+              - Deconstruction. <br>
+              - Unholy Manipulation. <br><br><b>Defensive</b><br>1. Puppet of Ultimate Darkness. <br>
+              - Passive Spatial Manipulation <br>
+              - Durability Negation Type Spatial <br>
+              - Battle Field Removal
+            </p>
+        </div>
+
+        <div class="text-block" id="block4">
+            <h2>Perubahan Strategi pihak Sakanashi</h2>
+            <p><b>Ofensif</b><br>
+            1. Puppet of Ultimate Darkness. <br>
+            - Passive Spatial Manipulation <br>
+            - Durability Negation Type Spatial <br>
+            - Battle Field Removal <br><br><b>Permasalahan Range</b><br><br>Range yang dijabarkan oleh pihak Satori emng memberikan sedikit ke-ambigu an yang dimana ia ber-statment "jarak paling aman untuk melakukan ini hanya beberapa meter saja" Yang kita tau bahwa pada Phasse 2 ini tidak ada yang namanya Range disetarakan, untuk masalah Danmaku mungkin pada pemaparan yang di lakukan hanya terlihat beberapa meter, namun kita perlu tau bahwa Touho itu game lama kekurangan yang namanya improve dari segi detail game & grafis, dan juga Danmaku juga bisa melesat hingga beberapa Kilometer jauhnya, untuk masalah Range Membaca pikiran itu ada 2 cara yaitu dengan cara "Sejauh Mata Memandang & At least Infinite distance" Yang dimana untuk sejauh mata memandang itu tetap akan bisa untuk mencapai jarak 4km, menurut artikel <b>RS Mata SMEC</b> mengatakan bahwa "Manusia dapat melihat hingga 3 mil( atau sekitar 4 kilometer)." Maka dengan opsi sejauh mata memandang akan bekerja, apalagi dengan At least Infinite Distance jelas itu akan makin mempermudah Satori untuk membaca pikiran Sakanashi.
+            </p>
+        </div>
+
+        <div class="text-block" id="block5">
+            <h3>Permasalahan Blackhole-Creation,Gravity Manipulation,Deconstruction</h3>
+            <p>
+              Masalah Rebuttal Blackhole Creation dan semacamnya, hal ini sebenarnya bisa dijelaskan dari versi Original yang diberikan, yang dimana Suika berubah menjadi Inti Blackhole itu sendiri, namun permasalahannya dmn? Permasalahan nya adalah Spell <b>Recollection "Night Parade of a Million Demons"</b> adalah sihir gabungan yang terjadi pada momen Blackhole tersebut muncul, dengan munculnya beberapa Danmaku berukuran cukup lebar dan Blackhole yang tiba-tiba muncul sebagai Last Attack (berdasarkan di video) itu membuat <b>"Night Parade of a Million Demons</b> bisa mendapatkan 3 ability sekaligus, namun memang adanya sedikit ke ambigu an terhadap spell yang di sampaikan karena terlihat tidak sesuai mungkin emng murni kesalahan Satori.<h3>Permasalahan Mid-Godly Regeneration</h3>Disini ada sedikit permasalahan mengenai Mid-Godly, kata of one's itu kepemilikan seseorang, bukan opsi hanya satu dari..., gitu yang berarti Sakanashi benar bahwa Satori tidak memenuhi syarat untuk mencapai Mid-Godly karena kalau kata of one's merujuk salah satu Maka bukan "body, sould, and mind" tapi "body, soul, or mind" yang dimana Satori hanya beregenerasi dari kehancuran tubuh fisik dan jiwa meskipun "Mind" Bekerja secara Independen namun jika tidak diberi tau apakah pemulihannya ke bentuk fisik komplit atau tidak, jika iya mungkin dapat Mid-Godly jika tidak maka bisa disimpulkan adalah Low-godly saja untuk Satori.
+            </p>
+        </div>
+        
+        <div class="text-block" id="block5">
+            <h2>Pertempuran</h2>
+            <p>Pada pertempuran Satori yang memulai serangan dengan cara membaca pikiran dari Sakanashi yang dimana itu sesuai dengan In-Character nya untuk mengetahui langkah selanjutnya, serangan selanjutnya, Kelemahannya dan semacamnya dan membaca pikiran tersebut juga akan di ikutin dengan serangan Danmaku yang dapat mengambil paksa jiwa Sakanashi. Selanjutnya untuk serangan yang dilancarkan oleh Sakanashi berasal dari Yin Energy yang dimana terdapat kemampuan Passive yang melanggar aturan tour ini maka Sakanashi hanya bisa bertahan dengan menggunakan puppet miliknya, selanjutnya setelah melakukan perbaikan Sakanashi menggunakan Puppet miliknya untuk nge-twist tangan dari Satori untuk memindahkan nya apakah yakin dengan jarak 4km puppet tersebut dapat menjangkau Satori? Karena yang saya liat puppet tersebut hanya memiliki Ignore Distance seperti Nge-twist tangan, maka menggunakan BFR untuk memindahkan Satori yang harus menyentuh terlebih dahulu akan terganggu dengan serangan Danmaku dan jika hanya nge-twist maka Satori dapat melakukan regenerasi ke tangan tersebut meskipun saya kurang tau apakah penggunaan Puppet sesuai dengan In-Character Sakanashi yang penuh perhitungan? Meskipun puppet tersebut muncul secara otomatis untuk melindungi Sakanashi, terkecuali penggunaan Yin Energy yang tidak sesuai, dan dimana kondisi pertarungan masih dipegang oleh Satori yang dimana Sakanashi tidak bisa memberikan progress yang jelas dalam bertarung Puppet juga tidak memiliki penjelasan lebih apakah memiliki akrobatik untuk menghindari Danmaku? Dan apakah mengembalikan ke Nothingless tersebut seperti Existence Erasure karena tidak adanya elaborasi lebih.</p>
+        </div>
+        
+        <div class="text-block" id="block5">
+            <h2>Permasalah yang lain</h2>
+            <p>Untuk masalah yang lain bisa dibahas setelah judge saja biar bisa di diskusi kan bersama-sama.</p>
+        </div>
+        
+        <div class="text-block" id="block5">
+            <h2>Result</h2>
+            <p>GG: @Wann² (Reff Dreamy) <br>
+            NT: @~JackUE ∑</p>
+        </div>
+    </div>
+
+    <!-- Scroll to Top button -->
+    <button id="scrollToTopBtn">⬆️</button>
+
+    <script>
+        // Function to reveal blocks on scroll
+        function revealBlocks() {
+            const blocks = document.querySelectorAll('.text-block');
+            const windowHeight = window.innerHeight;
+
+            blocks.forEach(block => {
+                const blockTop = block.getBoundingClientRect().top;
+                if (blockTop < windowHeight - 100) {
+                    block.classList.add('visible');
+                }
+            });
+        }
+
+        // Scroll to top button
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+        // Show button when scroll position is greater than 300px
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollToTopBtn.style.display = 'block';
+            } else {
+                scrollToTopBtn.style.display = 'none';
+            }
+        });
+
+        // Scroll to top on button click
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Initial reveal setup
+        window.addEventListener('scroll', revealBlocks);
+        revealBlocks();
+    </script>
+
+</body>
+</html>
